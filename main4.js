@@ -14,7 +14,7 @@ let saudiaAirlines ={
     addDestination: function(addnewDes) {
         if (!this.destenations.includes(addnewDes)) {
             this.destenations.push(addnewDes);
-            console.log(`${addnewDes} تم إضافة الوجهة بنجاح.`);
+            console.log(`${addnewDes} تم إضافة وجهة جديدة !.`);
         } else {
             console.log("unknown");
         }
