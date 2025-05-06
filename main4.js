@@ -2,7 +2,7 @@ let saudiaAirlines ={
     airlineName:"الخطوط الجوية السعودية",
     country:"السعودية",
     fleetSize:200,
-    destenations:["نيويورك","جدة","دبي","الرياض"],
+    destenations:["نيويورك","جدة","دبي","الرياض","باريس"],
     inOperation:true,
     bookFlight:function(destenation){
         if(this.destenations.includes(destenation)){
