@@ -36,7 +36,7 @@ const characters = [ {
      ];
 // 1
 let char=characters.find(fName=>fName.mass>75);
-     console.log(char)
+console.log(char)
 // 2
 let heightChar = characters.find(height => height.height < 180);
 if(heightChar){
